@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+<<<<<<< HEAD
 int main() {
     int choice;
     char continue_choice;
@@ -48,6 +49,21 @@ int main() {
     } while(continue_choice == 'y' || continue_choice == 'y');
 
     printf("Exiting the vending machine.\n");
+=======
+int main()
+{
+    printf("Welcome to the Beverage Vending Machine\n");
+    printf("\n");
+    printf("1. Coca-Cola\n");
+    printf("2. Pepsi\n");
+    printf("3. Sprite\n");
+    printf("4. Fanta\n");
+    printf("5. Mountain Dew\n");
+    printf("6. Water\n");
+    printf("7. Exit\n");
+    printf("\n");
+    printf("select an option (1-7): ");
+>>>>>>> 202d5e945e8fd8fa596c14d4c052c1d83a1bfe73
 
     return 0;
 }
