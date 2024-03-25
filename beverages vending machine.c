@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include<stdlib.h>
 
-int main() {
+int main()
+ {
     printf("Welcome to the Beverage Vending Machine\n");
     printf("\n");
     printf("1. Coca-Cola\n");
