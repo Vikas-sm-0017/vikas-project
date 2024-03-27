@@ -44,7 +44,7 @@ int main()
         // Display price
         if (price > 0.0)
         {
-            printf("Price: Rs%f\n", price);
+            printf("Price: Rs%.2f\n", price);
         }
 
         // Ask if user wants to continue
