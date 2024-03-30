@@ -1,5 +1,10 @@
-#include <stdio.h>
+/*
+    Program: Beverages Vending Machine
+    Description: This program simulates a simple beverages vending machine.
+                 It allows users to select beverages and provides the respective prices.
+                 Users can choose to continue vending or exit the program.*/
 
+#include <stdio.h>
 
 int main()
 {
