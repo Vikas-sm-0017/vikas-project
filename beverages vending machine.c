@@ -31,79 +31,79 @@ int main()
 {
     case 1:
         printf("\nCoffee Sizes:\n");
-        printf("a. Small   - Rs 30\n");
-        printf("b. Medium  - Rs 40\n");
-        printf("c. Large   - Rs 50\n");
-        printf("Enter size choice (a/b/c): ");
+        printf("s. Small   - Rs 30\n");
+        printf("m. Medium  - Rs 40\n");
+        printf("l. Large   - Rs 50\n");
+        printf("Enter size choice (s/m/l): ");
         scanf(" %c", &size_choice);
     switch(size_choice)
 {
-    case 'a':
+    case 's':
         printf("You selected Small Coffee.\n");
         price = 30;
     break;
-    case 'b':
+    case 'm':
         printf("You selected Medium Coffee.\n");
         price = 40;
     break;
-    case 'c':
+    case 'l':
         printf("You selected Large Coffee.\n");
         price = 50;
     break;
     default:
-        printf("Invalid size choice. Please enter 'a', 'b', or 'c'.\n");
+        printf("Invalid size choice. Please enter 's', 'm', or 'l'.\n");
         price = 0.0;
 }
     break;
     case 2:
         printf("\nTea Sizes:\n");
-        printf("a. Small   - Rs 25\n");
-        printf("b. Medium  - Rs 35\n");
-        printf("c. Large   - Rs 45\n");
-        printf("Enter size choice (a/b/c): ");
+        printf("s. Small   - Rs 25\n");
+        printf("m. Medium  - Rs 35\n");
+        printf("l. Large   - Rs 45\n");
+        printf("Enter size choice (s/m/l): ");
         scanf(" %c", &size_choice);
     switch(size_choice)
 {
-    case 'a':
+    case 's':
         printf("You selected Small Tea.\n");
         price = 25;
     break;
-    case 'b':
+    case 'm':
         printf("You selected Medium Tea.\n");
         price = 35;
     break;
-    case 'c':
+    case 'l':
         printf("You selected Large Tea.\n");
         price = 45;
     break;
     default:
-        printf("Invalid size choice. Please enter 'a', 'b', or 'c'.\n");
+        printf("Invalid size choice. Please enter 's', 'm', or 'l'.\n");
         price = 0.0;
 }
     break;
     case 3:
         printf("\nSoda Sizes:\n");
-        printf("a. Small   - Rs 20\n");
-        printf("b. Medium  - Rs 30\n");
-        printf("c. Large   - Rs 40\n");
-        printf("Enter size choice (a/b/c): ");
+        printf("s. Small   - Rs 20\n");
+        printf("m. Medium  - Rs 30\n");
+        printf("l. Large   - Rs 40\n");
+        printf("Enter size choice (s/m/l): ");
         scanf(" %c", &size_choice);
     switch(size_choice)
 {
-    case 'a':
+    case 's':
         printf("You selected Small Soda.\n");
         price = 20;
     break;
-    case 'b':
+    case 'm':
         printf("You selected Medium Soda.\n");
         price = 30;
     break;
-    case 'c':
+    case 'l':
         printf("You selected Large Soda.\n");
         price = 40;
     break;
     default:
-        printf("Invalid size choice. Please enter 'a', 'b', or 'c'.\n");
+        printf("Invalid size choice. Please enter 's', 'm', or 'l'.\n");
         price = 0.0;
 }
     break;
