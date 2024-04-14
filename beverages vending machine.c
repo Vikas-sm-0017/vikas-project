@@ -1,4 +1,22 @@
-#include"beverage.h"
+/*
+    Program: Beverages Vending Machine
+    Description:
+        This program simulates a simple beverages vending machine.
+        It allows users to select beverages, choose their sizes, and provides the respective prices.
+        Users can choose to continue vending or exit the program.
+*/
+
+#include <stdio.h>
+
+void displayMenu()
+{
+    printf("\nBeverages Vending Machine\n");
+    printf("1. Coffee\n");
+    printf("2. Tea\n");
+    printf("3. Soda\n");
+    printf("4. Exit\n");
+    printf("Enter your choice: ");
+}
 
 void displaySizeOptions(const char *beverage, float smallPrice, float mediumPrice, float largePrice)
 {
@@ -87,4 +105,33 @@ void processChoice(int choice, float *price)
             printf("Invalid choice. Please enter a number between 1 and 4.\n");
             *price = 0.0;
 }
+}
+
+int main()
+{
+    int choice;
+    char continue_choice;
+    float price;
+
+    do
+{
+        displayMenu();
+        scanf("%d", &choice);
+        processChoice(choice, &price);
+
+        // Display price if valid
+        if (price > 0.0)
+{
+            printf("Price: Rs%.2f\n", price);
+}
+
+        // Ask if user wants to continue
+        printf("\nDo you want to continue? (y/n): ");
+        scanf(" %c", &continue_choice);
+}
+    while (continue_choice == 'y' || continue_choice == 'Y');
+
+    printf("Exiting the vending machine.\n");
+
+    return 0;
 }

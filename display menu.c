@@ -1,4 +1,4 @@
-#include "display menu.c"
+#include "beverage.h"
 void displayMenu()
 {
     printf("\nBeverages Vending Machine\n");
